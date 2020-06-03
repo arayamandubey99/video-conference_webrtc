@@ -1,13 +1,13 @@
 {
-  "name": "simple-videochat-webrtc",
+  "name": "video-conference_webrtc",
   "version": "1.0.0",
-  "description": "Video Chat between 2 people using simple-peer",
+  "description": "Video Chat using webrtc",
   "main": "main.js",
   "scripts": {
     "start": "node server.js",
     "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
   },
-  "author": "Vinayak Sinha",
+  "author": "Arayaman Dubey",
   "dependencies": {
     "express": "^4.16.4",
     "lite-server": "^2.5.4",
